@@ -21,7 +21,6 @@ function Home() {
   , []);
   return (
     <>
-      <Header />
       <div className={styles.container}>
         {loading ? (
         <h1 style={{fontWeight:'300'}}>Loading...</h1>

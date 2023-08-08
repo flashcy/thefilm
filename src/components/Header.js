@@ -38,14 +38,14 @@ function Header () {
     };
 
     return (
-        <div className={styles.container} ref={targetContainer}>
+        <div className={styles.nav} ref={targetContainer}>
             <strong>The Film</strong>
             <div className={styles.buttons}>
                 <span onClick={openModal}>
                     <Button link="#" name="LOGIN" color={scrollColor}/>
                     <Login isOpen={isShowing} onClose={setIsShowing}/>
                 </span>
-                <Button link="#" name="ABOUT" color={scrollColor}/>
+                <Button link="pokemon/" name="POKEMON" color={scrollColor}/>
             </div>
         </div>
     );

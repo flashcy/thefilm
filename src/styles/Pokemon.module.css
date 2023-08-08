@@ -1,0 +1,9 @@
+.pokemons {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.pokecard > img{
+    width: 200px;
+}
