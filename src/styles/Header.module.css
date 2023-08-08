@@ -1,0 +1,35 @@
+.container {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: 0.3s ease;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.buttons > * {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.buttons > *:hover{
+    opacity: .6;
+}
+
+strong {
+    font-weight: 300;
+    font-size: 18px;
+}
