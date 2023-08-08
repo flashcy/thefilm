@@ -1,14 +1,12 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from '../styles/Button.module.css';
 
 function Button ({link, name, color}) {
     const style = {
-        textDecoration: 'none',
-        color: color,
-        cursor: 'pointer'
-    };
+        color: color
+    }
     return (
-        <span style={style}>{name}</span>
+        <span><Link to={link} style={style}>{name}</Link></span>
     );
 }
 
